@@ -32,7 +32,7 @@ function App() {
         <div>
           <div>
             <h1
-              className="absolute font-bold z-10 p-3 mt-20 text-lg hover:bg-yellow-600 hover:text-white "
+              className="absolute font-bold z-50 p-3 mt-20 text-lg hover:bg-yellow-600 hover:text-white "
               onMouseEnter={() => {
                 setMarquee(true);
               }}
@@ -43,7 +43,7 @@ function App() {
               Home
             </h1>
             {marquee && (
-              <Marquee speed={200} className="absolute  lg:mt-20 p-3">
+              <Marquee speed={200} className="absolute lg:mt-20 p-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
@@ -54,7 +54,7 @@ function App() {
 
           <div>
             <h1
-              className="absolute z-10  font-bold p-3 mt-36 text-lg hover:bg-yellow-600 hover:text-white "
+              className="absolute z-40  font-bold p-3 mt-36 text-lg hover:bg-yellow-600 hover:text-white "
               onMouseEnter={() => {
                 setMarquee1(true);
               }}
@@ -75,7 +75,7 @@ function App() {
           </div>
           <div>
             <h1
-              className="absolute z-10 p-3 font-bold mt-52 text-lg hover:bg-yellow-600 hover:text-white "
+              className="absolute z-30 p-3 font-bold mt-52 text-lg hover:bg-yellow-600 hover:text-white "
               onMouseEnter={() => {
                 setMarquee2(true);
               }}
@@ -96,7 +96,7 @@ function App() {
           </div>
           <div>
             <h1
-              className="absolute z-10 font-bold p-3 mt-[17rem] text-lg hover:bg-yellow-600 hover:text-white "
+              className="absolute z-20 font-bold p-3 mt-[17rem] text-lg hover:bg-yellow-600 hover:text-white "
               onMouseEnter={() => {
                 setMarquee3(true);
               }}
