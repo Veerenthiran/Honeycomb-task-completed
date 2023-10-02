@@ -76,8 +76,8 @@ function App() {
           </div>
           <div>
             <h1
-              className="absolute z-0 hover:z-50 p-3 font-bold mt-52 text-lg hover:bg-yellow-600 hover:text-white "
-              onClick={() => {
+              className="absolute lg:z-0 lg:hover:z-50 p-3 font-bold mt-52 text-lg hover:bg-yellow-600 hover:text-white "
+              onMouseEnter={() => {
                 setMarquee2(true);
               }}
               onMouseLeave={() => {
