@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Marquee from "react-fast-marquee";
-import { BsFillArrowLeftCircleFill } from "react-icons/bs";
+import { BsFillArrowLeftCircleFill, BsHospital } from "react-icons/bs";
 import { ImFacebook, ImGithub, ImWhatsapp } from "react-icons/im";
 
 function App() {
@@ -32,9 +32,10 @@ function App() {
         <div>
           <div>
             <h1
-              className="absolute font-bold z-50 p-3 mt-20 text-lg hover:bg-yellow-600 hover:text-white "
+              className="absolute font-bold p-3 z-20 mt-20 text-lg hover:bg-yellow-600 hover:text-white "
               onMouseEnter={() => {
                 setMarquee(true);
+                
               }}
               onMouseLeave={() => {
                 setMarquee(false);
@@ -43,7 +44,7 @@ function App() {
               Home
             </h1>
             {marquee && (
-              <Marquee speed={200} className="absolute lg:mt-20 p-3">
+              <Marquee speed={200} className="absolute lg:mt-20 p-3 -z-0">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
@@ -65,7 +66,7 @@ function App() {
               About Us
             </h1>
             {marquee1 && (
-              <Marquee className="absolute my-auto mt-36 p-3">
+              <Marquee className="absolute my-auto mt-36 p-3 -z-0">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
@@ -86,7 +87,7 @@ function App() {
               Carrers
             </h1>
             {marquee2 && (
-              <Marquee className="absolute my-auto mt-[13rem] p-3">
+              <Marquee className="absolute my-auto mt-[13rem] p-3 -z-0">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
@@ -107,7 +108,7 @@ function App() {
               Contact Us
             </h1>
             {marquee3 && (
-              <Marquee className="absolute my-auto mt-[17rem] p-3">
+              <Marquee className="absolute my-auto mt-[17rem] p-3 -z-0">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
