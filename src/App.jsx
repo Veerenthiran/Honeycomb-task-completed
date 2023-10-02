@@ -26,7 +26,7 @@ function App() {
         <div>
           <div>
             <h1
-              className="absolute font-bold z-10 p-4 mt-20 text-lg hover:bg-yellow-600 hover:text-white "
+              className="absolute font-bold z-10 p-3 mt-20 text-lg hover:bg-yellow-600 hover:text-white "
               onMouseEnter={() => {
                 setMarquee(true);
               }}
@@ -37,7 +37,7 @@ function App() {
               Home
             </h1>
             {marquee && (
-              <Marquee speed={200} className="absolute my-auto mt-20 p-3">
+              <Marquee speed={200} className="absolute my-auto mt-12 p-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
@@ -59,7 +59,7 @@ function App() {
               About Us
             </h1>
             {marquee1 && (
-              <Marquee className="absolute my-auto mt-36 p-3">
+              <Marquee className="absolute my-auto mt-28 p-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
@@ -80,7 +80,7 @@ function App() {
               Carrers
             </h1>
             {marquee2 && (
-              <Marquee className="absolute my-auto mt-52 p-3">
+              <Marquee className="absolute my-auto mt-[11rem] p-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
@@ -101,7 +101,7 @@ function App() {
               Contact Us
             </h1>
             {marquee3 && (
-              <Marquee className="absolute my-auto mt-[17rem] p-3">
+              <Marquee className="absolute my-auto mt-[15rem] p-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
