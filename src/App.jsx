@@ -21,12 +21,14 @@ function App() {
         </h1>
       </div>
     <div className="flex">
+
+      
     <div className="">
     
       
       {/* custom marquee and button card+
        */}
-      <div className="flex ml-48 ">
+      <div className="flex ml-36 ">
         <div>
           <div>
             <h1
@@ -41,7 +43,7 @@ function App() {
               Home
             </h1>
             {marquee && (
-              <Marquee speed={200} className="absolute my-auto mt-20 p-3">
+              <Marquee speed={200} className="absolute  lg:mt-20 p-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
@@ -124,7 +126,7 @@ function App() {
           className={
             backShow
               ? "lg:ml-[1350px] md:ml-[764px] sm:ml-[655px] mt-0 flex translate-x-2 transform items-center justify-center duration-1000 "
-              : "lg:ml-[380px] md:ml-[120px] flex -translate-x-2 transform items-center justify-center duration-1000"
+              : "lg:ml-[380px] md:ml-[120px] sm:ml-[80px] flex -translate-x-2 transform items-center justify-center duration-1000"
           }
         >
           <button onClick={handleClick} className="mr-4 mt-[8rem]">
