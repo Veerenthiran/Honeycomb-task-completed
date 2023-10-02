@@ -44,7 +44,7 @@ function App() {
               Home
             </h1>
             {marquee && (
-              <Marquee speed={200} className="absolute lg:mt-20 p-3 -z-0">
+              <Marquee speed={200} className="absolute lg:mt-20 p-3 -z-0 w-full">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
@@ -66,7 +66,7 @@ function App() {
               About Us
             </h1>
             {marquee1 && (
-              <Marquee className="absolute my-auto mt-36 p-3 -z-0">
+              <Marquee className="absolute my-auto w-full lg:mt-36 p-3 -z-0">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
@@ -76,7 +76,7 @@ function App() {
           </div>
           <div>
             <h1
-              className="absolute lg:z-0 lg:hover:z-50 p-3 font-bold mt-52 text-lg hover:bg-yellow-600 hover:text-white "
+              className="absolute lg:z-0 lg:hover:z-50  p-3 font-bold mt-52 text-lg hover:bg-yellow-600 hover:text-white "
               onMouseEnter={() => {
                 setMarquee2(true);
               }}
@@ -87,7 +87,7 @@ function App() {
               Carrers
             </h1>
             {marquee2 ?(
-              <Marquee className="absolute  mt-[13rem] p-3 -z-0">
+              <Marquee className="absolute lg:mt-[13rem] w-full p-3 -z-0">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
@@ -108,7 +108,7 @@ function App() {
               Contact Us
             </h1>
             {marquee3 && (
-              <Marquee className="absolute my-auto mt-[17rem] p-3 z-0">
+              <Marquee className="absolute my-auto lg:mt-[17rem] p-3 z-0 w-full">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
