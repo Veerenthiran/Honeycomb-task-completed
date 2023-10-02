@@ -26,7 +26,7 @@ function App() {
         <div>
           <div>
             <h1
-              className="absolute font-bold z-10 p-3 mt-20 text-lg hover:bg-yellow-600 hover:text-white "
+              className="absolute font-bold z-10 p-4 mt-20 text-lg hover:bg-yellow-600 hover:text-white "
               onMouseEnter={() => {
                 setMarquee(true);
               }}
