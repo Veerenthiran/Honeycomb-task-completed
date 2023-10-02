@@ -117,7 +117,7 @@ function App() {
         <div
           className={
             backShow
-              ? "ml-[1660px] mt-0   flex translate-x-2 transform items-center justify-center duration-1000"
+              ? "lg:ml-[1830px] sm:ml-[900px] mt-0 flex translate-x-2 transform items-center justify-center duration-1000 md:ml-[900px]"
               : " flex -translate-x-2 transform items-center justify-center duration-1000"
           }
         >
