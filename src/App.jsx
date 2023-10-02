@@ -117,14 +117,14 @@ function App() {
         <div
           className={
             backShow
-              ? "ml-[1596px] float-right flex translate-x-2 transform items-center justify-center duration-1000"
-              : "flex -translate-x-2 transform items-center justify-center duration-1000"
+              ? "ml-[1660px] mt-0   flex translate-x-2 transform items-center justify-center duration-1000"
+              : " flex -translate-x-2 transform items-center justify-center duration-1000"
           }
         >
           <button onClick={handleClick} className="mr-4 mt-[8rem]">
             <BsFillArrowLeftCircleFill size={30} color="#000" />
           </button>
-          <div className="mt-[10rem] h-80 w-96 rounded-lg bg-gray-700">
+          <div className="mt-[7rem] h-80 w-96 rounded-lg bg-gray-700 text-center">
             <div className="text-white text-lg p-10 block relative text-center">
               &quot; Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Accusamus recusandae modi excepturi similique vitae natus
@@ -135,7 +135,7 @@ function App() {
           </div>
         </div>
         {/* // footer and social media icon */}
-        <div className="flex flex-row space-x-8 mt-16 mb-0  justify-end mr-16">
+        <div className="flex flex-row space-x-8 mt-32 mb-0  justify-end mr-16">
           <div>
             <a
               href="https://www.whatsapp.com/"
