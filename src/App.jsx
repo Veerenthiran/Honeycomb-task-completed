@@ -44,7 +44,7 @@ function App() {
               Home
             </h1>
             {marquee && (
-              <Marquee speed={200} className="absolute lg:mt-0 p-3 -z-0 w-full">
+              <Marquee speed={200} className="lg:absolute lg:mt-20 lg:p-3  w-full">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
