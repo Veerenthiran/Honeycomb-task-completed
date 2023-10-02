@@ -13,20 +13,24 @@ function App() {
     setbackShow((state) => !state);
   }
   return (
-    <div className="h-screen bg-yellow-50">
+    <div className=" bg-yellow-50 h-screen">
       {/* header */}
-      <div className="bg-yellow-200 py-6 text-center">
+    <div className="bg-yellow-200 py-6 text-center w-full">
         <h1 className=" text-3xl font font-bold">
           Honey <span className="text-yellow-900">Comb</span> Task 🍯
         </h1>
       </div>
+    <div className="flex">
+    <div className="">
+    
+      
       {/* custom marquee and button card+
        */}
       <div className="flex ml-48 ">
         <div>
           <div>
             <h1
-              className="absolute font-bold z-10 p-3  text-lg hover:bg-yellow-600 hover:text-white "
+              className="absolute font-bold z-10 p-3 mt-20 text-lg hover:bg-yellow-600 hover:text-white "
               onMouseEnter={() => {
                 setMarquee(true);
               }}
@@ -37,7 +41,7 @@ function App() {
               Home
             </h1>
             {marquee && (
-              <Marquee speed={200} className="absolute my-auto mt-12 p-3">
+              <Marquee speed={200} className="absolute my-auto mt-20 p-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
@@ -59,7 +63,7 @@ function App() {
               About Us
             </h1>
             {marquee1 && (
-              <Marquee className="absolute my-auto mt-28 p-3">
+              <Marquee className="absolute my-auto mt-36 p-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
@@ -80,7 +84,7 @@ function App() {
               Carrers
             </h1>
             {marquee2 && (
-              <Marquee className="absolute my-auto mt-[11rem] p-3">
+              <Marquee className="absolute my-auto mt-[13rem] p-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
@@ -101,7 +105,7 @@ function App() {
               Contact Us
             </h1>
             {marquee3 && (
-              <Marquee className="absolute my-auto mt-[15rem] p-3">
+              <Marquee className="absolute my-auto mt-[17rem] p-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
@@ -111,14 +115,16 @@ function App() {
           </div>
         </div>
       </div>
+      </div>
+
 
       {/* div */}
-      <div>
+      <div className="">
         <div
           className={
             backShow
-              ? "lg:ml-[1660px] md:ml-[1184px] sm:ml-[900px] mt-0 flex translate-x-2 transform items-center justify-center duration-1000 "
-              : " flex -translate-x-2 transform items-center justify-center duration-1000"
+              ? "lg:ml-[1350px] md:ml-[764px] sm:ml-[655px] mt-0 flex translate-x-2 transform items-center justify-center duration-1000 "
+              : "lg:ml-[380px] md:ml-[120px] flex -translate-x-2 transform items-center justify-center duration-1000"
           }
         >
           <button onClick={handleClick} className="mr-4 mt-[8rem]">
@@ -134,15 +140,18 @@ function App() {
             </div>
           </div>
         </div>
-        {/* // footer and social media icon */}
-        <div className="flex flex-row space-x-8 mt-32 mb-0  justify-end mr-16">
+      </div>
+</div>
+{/* // footer and social media icon */}
+<div className="">
+        <div className="flex flex-row space-x-8 mt-[150px] relative justify-end mr-16">
           <div>
             <a
               href="https://www.whatsapp.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <ImWhatsapp size={25} color="" />
+              <ImWhatsapp size={25} color="" className="" />
             </a>
           </div>
           <div>
@@ -164,8 +173,8 @@ function App() {
             </a>
           </div>
         </div>
+        </div>
       </div>
-    </div>
   );
 }
 
