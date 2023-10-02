@@ -26,7 +26,7 @@ function App() {
         <div>
           <div>
             <h1
-              className="absolute font-bold z-10 p-3 mt-20 text-lg hover:bg-yellow-600 hover:text-white "
+              className="absolute font-bold z-10  mt-20 text-lg hover:bg-yellow-600 hover:text-white "
               onMouseEnter={() => {
                 setMarquee(true);
               }}
@@ -37,7 +37,7 @@ function App() {
               Home
             </h1>
             {marquee && (
-              <Marquee speed={200} className="absolute my-auto mt-12 ">
+              <Marquee speed={200} className="absolute mt-20 ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
