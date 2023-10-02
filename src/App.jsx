@@ -108,7 +108,7 @@ function App() {
               Contact Us
             </h1>
             {marquee3 && (
-              <Marquee className="absolute my-auto mt-[17rem] p-3 -z-0">
+              <Marquee className="absolute my-auto mt-[12rem] p-3 -z-0 ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
