@@ -37,7 +37,7 @@ function App() {
               Home
             </h1>
             {marquee && (
-              <Marquee speed={200} className="absolute my-auto mt-12 p-3">
+              <Marquee speed={200} className="absolute my-auto mt-12 ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
