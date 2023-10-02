@@ -66,7 +66,7 @@ function App() {
               About Us
             </h1>
             {marquee1 && (
-              <Marquee className="absolute my-auto w-full lg:mt-36 p-3 -z-0">
+              <Marquee className="absolute my-auto w-full lg:mt-96 p-3 -z-0">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
