@@ -76,7 +76,7 @@ function App() {
           </div>
           <div>
             <h1
-              className="absolute z-30 p-3 font-bold mt-52 text-lg hover:bg-yellow-600 hover:text-white "
+              className="absolute z-0 hover:z-50 p-3 font-bold mt-52 text-lg hover:bg-yellow-600 hover:text-white "
               onMouseEnter={() => {
                 setMarquee2(true);
               }}
@@ -86,14 +86,14 @@ function App() {
             >
               Carrers
             </h1>
-            {marquee2 && (
-              <Marquee className="absolute my-auto mt-[13rem] p-3 -z-0">
+            {marquee2 ?(
+              <Marquee className="absolute  mt-[13rem] p-3 -z-0">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
                 repellendus, expedita facere beatae quo saepe!
-              </Marquee>
-            )}
+              </Marquee>): ""
+            }
           </div>
           <div>
             <h1
@@ -108,7 +108,7 @@ function App() {
               Contact Us
             </h1>
             {marquee3 && (
-              <Marquee className="absolute my-auto mt-[12rem] p-3 -z-0 ">
+              <Marquee className="absolute my-auto mt-[17rem] p-3 z-0">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
                 modi quos ullam vel sit laboriosam, deserunt fugiat dolorem
                 dolor necessitatibus qui dicta perspiciatis doloribus
